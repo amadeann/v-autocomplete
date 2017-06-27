@@ -1,1 +1,10 @@
-.v-autocomplete{position:relative}.v-autocomplete .v-autocomplete-list{position:absolute}.v-autocomplete .v-autocomplete-list .v-autocomplete-list-item{cursor:pointer}
+
+.v-autocomplete {
+  position: relative
+}
+.v-autocomplete .v-autocomplete-list {
+  position: absolute
+}
+.v-autocomplete .v-autocomplete-list .v-autocomplete-list-item {
+  cursor: pointer
+}
