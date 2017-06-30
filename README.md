@@ -108,7 +108,7 @@ Properties
 | **items**                | Array                               | Yes      |                                | List items                                          |
 | **component-item**       | Vue Component or Function or String | No       | Item                           | Item list template                                  |
 | **placeholder**          | String                              | No       |                                |                                                     |
-| **min-len**              | Number                              | No       | 3                              | Min length to trigger the *updateItems* event       |
+| **min-len**              | Number                              | No       | 3                              | Min length to trigger the *updateItems* event. Value of 3 triggers the autocomplete on strings of at least 4 characters.       |
 | **wait**                 | String                              | No       | 500                            | Miliseconds dela to trigger the *updateItems* event |
 | **get-label**            | Function                            | No       | function(item) { return item } | Anonymous function to extract label of the item     |
 | **value**                | Mixed                               | No       |                                | Initial value (use v-model)                         |
